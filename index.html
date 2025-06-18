@@ -2,42 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
+  <main>
+    <section>
+      <div class="score-card__result">
+        <p class="score-card__label">Yout score</p>
+        <div class="score-card__accuracy">
+          <span class="score-card__value">76</span>
+          <span class="score-card__value-total">off 100</span>
+        </div>
+        <p class="score-card__feedback">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <div class="score-card__summary">
+        <h3 class="score-card__title">Summary</h3>
+        <ul class="score-card__list">
+          <li class="score-card__item score-card__item--reaction">
+            <div class="">
+              <img src="" alt="" class="score-card__item-icon">
+              <span class="score-card__item-label">Reaction</span>
+            </div>
+            <div class="score-card__item-hit">
+              <span>80</span>
+              <span>/ 100</span>
+            </div>
+          </li>
+          <li class="score-card__item score-card__item--memory">
+            <div class="">
+              <img src="" alt="" class="score-card__item-icon">
+              <span class="score-card__item-label">Memory</span>
+            </div>
+            <div class="score-card__item-hit">
+              <span>92</span>
+              <span>/ 100</span>
+            </div>
+          </li>
+          <li class="score-card__item score-card__item--verbal">
+            <div class="">
+              <img src="" alt="" class="score-card__item-icon">
+              <span class="score-card__item-label">Verbal</span>
+            </div>
+            <div class="score-card__item-hit">
+              <span>61</span>
+              <span>/ 100</span>
+            </div>
+          </li>
+          <li class="score-card__item score-card__item--visual">
+            <div class="">
+              <img src="" alt="" class="score-card__item-icon">
+              <span class="score-card__item-label">Visual</span>
+            </div>
+            <div class="score-card__item-hit">
+              <span>72</span>
+              <span>/ 100</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

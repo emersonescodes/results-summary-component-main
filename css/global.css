@@ -1,0 +1,28 @@
+:root {
+    --red: hsl(0, 100%, 67%);
+    --yellow: hsl(39, 100%, 56%);
+    --green: hsl(166, 100%, 37%);
+    --blue: hsl(234, 85%, 45%);
+
+    --white: hsl(0, 0%, 100%);
+    --neutral-blue: hsl(221, 100%, 96%);
+    --neutral-purple: hsl(241, 100%, 89%);
+    --neutral-gray: hsl(224, 30%, 27%);
+
+    --background-gradient: linear-gradient(to bottom, #7857ff, #2e2be9);
+    --circle-gradient: linear-gradient( #4e21ca, #2421ca00);
+
+    --font: "Hanken Grotesk", sans-serif;
+    
+    --text: 18px/125% var(--font);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+}
+
+li {
+    list-style-type: none;
+}

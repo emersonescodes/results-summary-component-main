@@ -15,23 +15,26 @@
     --neutral-gray: rgb(48, 59, 90);
 
     --background-gradient: linear-gradient(to bottom, #7857ff, rgb(46, 43, 233));
-    --circle-gradient: linear-gradient( #4e21ca, #2421ca00);
+    --circle-gradient: linear-gradient(#4e21ca, #2421ca00);
 
     --font: "Hanken Grotesk", sans-serif;
     
-    --text: 18px/125% var(--font);
+    --text: 1.125rem/125% var(--font);
 }
 
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: var(--font);
-}
-
-li {
-    list-style-type: none;
 }
 
 a {
     text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }

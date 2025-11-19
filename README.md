@@ -20,7 +20,7 @@ Os usuários devem ser capazes de:
 - Visualizar o layout ideal dependendo do tamanho da tela  
 - Ver estados de hover e focus nos elementos interativos  
 - Mantener fidelidade visual com o design fornecido  
-- **(Bônus futuramente)** Popular o componente dinamicamente a partir do arquivo `data.json`  
+- **(Bônus futuramente)** Preencher o componente dinamicamente a partir do arquivo `data.json`  
 
 ---
 

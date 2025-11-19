@@ -4,12 +4,17 @@
     --green: hsl(166, 100%, 37%);
     --blue: hsl(234, 85%, 45%);
 
+    --red-bg: hsla(0, 100%, 67%, 0.1);
+    --yellow-bg: hsla(39, 100%, 56%, 0.1);
+    --green-bg: hsla(166, 100%, 37%, 0.1);
+    --blue-bg: hsla(234, 85%, 45%, 0.1);
+
     --white: hsl(0, 0%, 100%);
     --neutral-blue: hsl(221, 100%, 96%);
     --neutral-purple: hsl(241, 100%, 89%);
-    --neutral-gray: hsl(224, 30%, 27%);
+    --neutral-gray: rgb(48, 59, 90);
 
-    --background-gradient: linear-gradient(to bottom, #7857ff, #2e2be9);
+    --background-gradient: linear-gradient(to bottom, #7857ff, rgb(46, 43, 233));
     --circle-gradient: linear-gradient( #4e21ca, #2421ca00);
 
     --font: "Hanken Grotesk", sans-serif;
@@ -25,4 +30,8 @@
 
 li {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
